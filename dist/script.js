@@ -18517,7 +18517,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "spinner", function() { return spinner; });
 function spinner() {
   var img = document.createElement("img");
-  var path = "../assets/slick/ajax-loader.gif";
+  var path = "../dist/assets/slick/ajax-loader.gif";
   img.classList.add("spinner");
   img.setAttribute("src", path);
   return img;
@@ -18555,10 +18555,10 @@ function tabs(tabSelector, contentSelector, activeClass) {
       content = document.querySelectorAll(contentSelector),
       decoration = document.querySelector(".decoration"),
       background = {
-    imgInside: "../assets/img/tabsImgBackground/insideBalcony.png",
-    imgOutside: "../assets/img/tabsImgBackground/outsideBalcony.png",
-    k: "../assets/img/tabsImgBackground/vekaEvrolajn.png",
-    balconUp: "../assets/img/tabsImgBackground/balconup.png"
+    imgInside: "../dist/assets/img/tabsImgBackground/insideBalcony.png",
+    imgOutside: "../dist/assets/img/tabsImgBackground/outsideBalcony.png",
+    k: "../dist/assets/img/tabsImgBackground/vekaEvrolajn.png",
+    balconUp: "../dist/assets/img/tabsImgBackground/balconup.png"
   };
 
   function createBg(i) {
