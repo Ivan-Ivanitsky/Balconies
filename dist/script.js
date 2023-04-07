@@ -18555,10 +18555,10 @@ function tabs(tabSelector, contentSelector, activeClass) {
       content = document.querySelectorAll(contentSelector),
       decoration = document.querySelector(".decoration"),
       background = {
-    imgInside: "../dist/assets/img/tabsImgBackground/insideBalcony.png",
-    imgOutside: "../dist/assets/img/tabsImgBackground/outsideBalcony.png",
-    k: "../dist/assets/img/tabsImgBackground/vekaEvrolajn.png",
-    balconUp: "../dist/assets/img/tabsImgBackground/balconup.png"
+    imgInside: "../assets/img/tabsImgBackground/insideBalcony.png",
+    imgOutside: "../assets/img/tabsImgBackground/outsideBalcony.png",
+    k: "../assets/img/tabsImgBackground/vekaEvrolajn.png",
+    balconUp: "../assets/img/tabsImgBackground/balconup.png"
   };
 
   function createBg(i) {

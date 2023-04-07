@@ -346,10 +346,19 @@ textarea:focus {
 
 /*Main*/
 .main {
+  position: relative;
   padding: 10rem 0;
   background: #ffffff url(../img/main/bg-main.png) bottom/cover no-repeat;
 }
-
+.main--bg-opacity{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
 .main h1 {
   margin: 0;
   /*margin-top: -4rem;*/
@@ -1249,6 +1258,7 @@ textarea:focus {
 }
 
 @media (max-width: 991px) {
+
   .section_header h2 {
     font-size: 2.8rem;
   }
@@ -1309,7 +1319,9 @@ textarea:focus {
     padding: 5rem 0;
     padding-bottom: 7rem;
   }
-
+  .main--bg-opacity{
+    display: block;
+  }
   .main h1 {
     text-align: center;
     font-size: 5rem;
@@ -1662,12 +1674,12 @@ textarea:focus {
     font-size: 1.2rem;
   }
 
-  .main {
+  /* .main {
     padding: 3rem 0;
     padding-bottom: 5rem;
     background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;
     background-size: cover;
-  }
+  } */
 
   .main h1 {
     font-size: 3rem;
@@ -1909,4 +1921,13 @@ textarea:focus {
     /* -webkit-animation: none !important;
     animation: none !important; */
   }
+}
+
+@media (max-width:320px){
+  .main h3 {
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
 }
